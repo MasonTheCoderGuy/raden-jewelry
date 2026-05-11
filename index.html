@@ -12,8 +12,13 @@
 <body>
     <!-- Navigation -->
     <nav class="nav">
-        <div class="nav-logo">R A D E N</div>
-        <div class="nav-menu">M E N U</div>
+        <div class="nav-logo">
+            <svg viewBox="0 0 40 40" class="diamond-icon">
+                <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="0.5"/>
+                <polygon points="20,5 35,20 20,35 5,20" fill="none" stroke="currentColor" stroke-width="0.5"/>
+            </svg>
+        </div>
+        <div class="nav-menu">MENU</div>
     </nav>
 
     <!-- Hero Section -->
@@ -21,24 +26,34 @@
         <video class="hero-video" autoplay muted loop playsinline>
             <source src="https://videos.ctfassets.net/p9hjkod65go3/103Pt3FrHKABdCPHce4xui/19b7ad43c4074fee731113b2181da7dc/02_ORE_OverlapVideos_1920x1080_FinalAssembly_V4.mp4" type="video/mp4">
         </video>
-        <div class="hero-overlay"></div>
 
-        <div class="hero-content">
+        <!-- Giant RADEN text -->
+        <div class="hero-logo">
+            <svg viewBox="0 0 1200 200" class="raden-giant" preserveAspectRatio="xMidYMid meet">
+                <text x="0" y="160">RADEN</text>
+            </svg>
+        </div>
+
+        <!-- Bottom text -->
+        <div class="hero-bottom">
             <div class="hero-text-left">
                 <p class="hero-tagline">BESPOKE DIAMOND JEWELRY.</p>
-                <p>DIAMOND JEWELRY CRAFTED THROUGH OUR LENS OF MODERN DESIGN, WITH NO SACRIFICE TO ACHIEVE OUR PREMIUM QUALITY. EXCLUSIVE DIAMOND HOUSE SPECIALIZING IN BESPOKE TIMELESS JEWELRY.</p>
+                <p>DIAMOND JEWELRY CRAFTED THROUGH OUR LENS OF MODERN DESIGN, WITH NO SACRIFICE TO ACHIEVE OUR PREMIUM QUALITY. EXCLUSIVE DIAMOND HOUSE, SPECIALIZING IN BESPOKE TIMELESS JEWELRY.</p>
             </div>
 
-            <div class="hero-logo">
-                <svg viewBox="0 0 800 200" class="raden-outline">
-                    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">RADEN</text>
-                </svg>
+            <div class="hero-text-center">
+                <p>WE DRAW PURPOSE</p>
+                <p>AND INSPIRATION THROUGH</p>
+                <p>THE ART OF INNOVATION.</p>
             </div>
 
             <div class="hero-text-right">
                 <p>DIAMOND JEWELRY THROUGH OUR LENS OF MODERN DESIGN, WITH NO SACRIFICE TO ACHIEVE OUR PREMIUM QUALITY.</p>
-                <p class="hero-inspiration">WE DRAW PURPOSE AND INSPIRATION THROUGH THE ART OF INNOVATION.</p>
             </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span></span>
         </div>
     </section>
 
@@ -66,22 +81,19 @@
     <!-- Services -->
     <section class="services">
         <div class="service-item">
-            <span class="service-number">1</span>
+            <span class="service-number">01</span>
             <h3 class="service-title">Bridal</h3>
             <p class="service-desc">TIMELESS HEIRLOOMS CRAFTED WITH PREMIER DIAMANTAIRES.</p>
-            <span class="service-number-right">1</span>
         </div>
         <div class="service-item">
-            <span class="service-number">2</span>
+            <span class="service-number">02</span>
             <h3 class="service-title">Custom</h3>
-            <p class="service-desc">CUSTOMIZE WITH PRESTIGIOUS DETAIL AND NO COMPARABLE. THE ULTIMATE LUXURY EXPERIENCE.</p>
-            <span class="service-number-right">2</span>
+            <p class="service-desc">CUSTOMIZE WITH PRESTIGIOUS DETAIL. THE ULTIMATE LUXURY EXPERIENCE.</p>
         </div>
         <div class="service-item">
-            <span class="service-number">3</span>
+            <span class="service-number">03</span>
             <h3 class="service-title">Sourcing</h3>
-            <p class="service-desc">UNATTAINABLE ACCESS, GIVEN TO A LIMITED FEW THAT HAVE ONLY BEEN AVAILABLE TO THOSE GRANDFATHERED INTO THE GLOBAL NETWORK.</p>
-            <span class="service-number-right">3</span>
+            <p class="service-desc">UNATTAINABLE ACCESS, GIVEN TO A LIMITED FEW.</p>
         </div>
     </section>
 
@@ -125,7 +137,6 @@
                 <video autoplay muted loop playsinline>
                     <source src="https://videos.ctfassets.net/p9hjkod65go3/103Pt3FrHKABdCPHce4xui/19b7ad43c4074fee731113b2181da7dc/02_ORE_OverlapVideos_1920x1080_FinalAssembly_V4.mp4" type="video/mp4">
                 </video>
-                <div class="play-button"></div>
             </div>
             <div class="work-info">
                 <p class="work-count">01/05</p>
@@ -139,18 +150,6 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- More Work Items -->
-    <section class="work-items">
-        <div class="work-item">Rainbow Nautilus</div>
-        <div class="work-item">10CT Cushion</div>
-        <div class="work-item">Cuban Link</div>
-    </section>
-
-    <!-- Diamond Fact 2 -->
-    <section class="fact">
-        <p>DIAMONDS FORM ABOUT 100 MILES BELOW GROUND AND HAVE BEEN CARRIED TO THE EARTH'S SURFACE BY DEEP VOLCANIC ERUPTIONS.</p>
     </section>
 
     <!-- CTA -->
@@ -171,16 +170,13 @@
                     <li><a href="#bridal">Bridal</a></li>
                     <li><a href="#custom">Custom</a></li>
                     <li><a href="#sourcing">Sourcing</a></li>
-                    <li><a href="#stories">Client Stories</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-contact">
                 <h5>CONTACT</h5>
                 <p><a href="mailto:atelier@radenjewelry.com">atelier@radenjewelry.com</a></p>
-                <p>+1 (212) 555-0190</p>
                 <p>Private Atelier<br>New York, NY</p>
-                <a href="#consultation" class="consultation-link">Request a Consultation</a>
             </div>
         </div>
         <div class="footer-bottom">
